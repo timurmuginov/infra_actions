@@ -74,4 +74,4 @@ jobs:
             sudo docker pull timurmuginov/sprint16_teor
             #остановка всех контейнеров
             sudo docker stop $(sudo docker ps -a -q)
-            sudo docker run --rm -d -p 5000:5000 timurmuginov/sprint16_teor
+            sudo docker run --rm -d -p 4000:4000 timurmuginov/sprint16_teor
